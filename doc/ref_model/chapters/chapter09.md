@@ -9,7 +9,34 @@
 * [9.4 Capacity Management](#9.4)
 * [9.5 Automation](#9.5)
   * [9.5.1 Infrastructure LCM Automation](#9.5.1)
+The Cloud Infrastructure includes many components Server , Storage , networking , Cloud , PaaS and applications that run on it . All of those applciations require changes and that should be able to do in real time without any interruption .
+
+The purpose of this section is to elaborate on Automation requriements for
+1. CI/CD automation for software in Cloud Infrastructure
+2. CT and testing pipeline in Cloud Infrastructure 
+
+The typical requirements for Day1 automation requirements are 
+1. Underlay management and Overlay fabric deployment
+2. Cloud deployment
+3. Validation and Acceptance testing
+4. Firmware & Security compliance
+5. VNF onboarding, testing, and production rollout
+6. Functional testing automation
+7. Performance automation
+8. Resilience automation
+
+The typical requirements for Day2 automation requirements are 
+1. Day-to-day routine (e.g. Troubleshooting/Debugging)
+2. Scheduled maintenance (e.g. hardware replacement/decommissioning)
+3. Scheduled routine (e.g. backup)
+4. Expansions (e.g. newer hardware generation with enhanced capacity)
+5. New VNF onboarding (e.g. newer use-cases)
+6. Updates and Upgrades with minimal or no service interruption
+
+
   * [9.5.2 Software Onboarding Automation and CI/CD Requirements](#9.5.2)
+Refer to 2. Kali Cloud Infra Automation Proposal
+
   * [9.5.3 Tenant creation automation](#9.5.3)
 * [9.6 Telemetry and Observability](#9.6)
   * [9.6.1 Why Observability](#9.6.1)
